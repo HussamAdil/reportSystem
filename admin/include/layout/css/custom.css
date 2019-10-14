@@ -1,0 +1,236 @@
+/* Start My framwork */
+*
+{
+    direction: rtl
+}
+@font-face {
+    font-family: 'DroidArabicKufiRegular';
+        src: url('../fonts/DroidKufi-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      } 
+.arabic-font
+{
+    font-family: 'DroidArabicKufiRegular'; 
+    font-weight: normal; 
+    font-style: normal;
+}
+.form-group
+{
+    text-align: right;
+}
+
+.form-horizontal .control-label
+{
+     margin-bottom:8px;
+}
+/* End My framwork */ 
+
+/* Start style for login page */
+.login-body
+{
+    background:#16a085;
+ }
+.login
+{
+background: #fff;
+margin-top: 130px;
+padding: 20px;
+border-radius:6px;
+}
+.hr-login
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color:#d2d2d2
+}
+.login input
+{
+    margin-bottom: 8px;
+}
+
+.login input[type="submit"]
+{
+     display: block;
+     margin: 0 auto;
+     background:none;
+     width:80px;
+     padding:5px;
+     border:2px solid #d1d1d1
+}
+/* End style for login page */
+
+
+/* Start style for Navbar page */
+.navbar
+{
+ border-radius: 0;
+ background: #000   ;
+ border: none;
+ color: #fff;
+ margin-bottom: 30px;
+}
+.navbar a 
+{
+    color: #fff
+}
+.navbar-inverse .navbar-brand
+{
+    color:#fff
+}
+.logo 
+{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 22px}
+
+.navbar-default .navbar-brand ,.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>li>a
+{color:#fff}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+    background: none;
+    font-size: 17px;
+   
+}
+.navbar-default .navbar-nav>li>a ,.navbar-default .navbar-nav>li>a
+{
+    font-size: 17px;
+ }
+.navbar-nav ul li,.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus
+{
+    color:#fff;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover
+{
+    color:#fff
+}
+.date 
+{
+    margin-top: 14px;
+    font-size: 17px;
+    margin-left: 15px;
+}
+.username-view 
+{
+ background: #DA4453;    
+    padding: 3px;
+    margin-top: 10px;
+    font-size: 18px;
+     border-radius: 5px;
+}
+.notification
+{ 
+    background: #fff;
+    color: #000;
+    height: 25px;
+    display: inline-block;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.5;
+
+}
+ 
+/* End style for Navrbar page */
+/* start dashboard style */
+a,a:hover,a:focus {
+    color: #000
+}
+.dashboard-tab 
+{
+    min-height: 100px;
+    border:1px solid #ccc;
+    padding:0px;
+  
+ } 
+
+ .icon 
+ {
+background: #8e44ad;
+color: #fff;
+text-align: center;
+min-height: 100px
+ }
+    .message 
+  {
+      background: black
+  }
+  .add-deparment 
+  {
+      background: #c0392b
+  }
+  .report
+  {
+      background: #2980b9
+  }
+  .user
+  {
+      background: #16a085
+  }
+ .icon p  
+ {
+     margin-top: 20px;
+ }
+ .info 
+ {
+     margin-top:25px
+ }
+/* End dashboard style */ 
+
+/* Start adddeparment Style */
+ 
+.adddeparment input 
+{
+    margin-bottom: 10px;
+    text-align: right
+}
+.adddeparment  .form-horizontal .control-label
+{
+    text-align: center;
+    float: right
+}
+.adddeparment  .form-horizontal .btn 
+{
+    text-align: center
+}
+.deparment-sub > div
+{
+    background: #ddd ;
+    width:120px;
+    height:120px;
+    margin: 0 auto;
+    border-radius: 50%
+}
+.deparment-sub > div p 
+{
+    line-height: 120px;
+    font-weight: bold
+}
+.control-icon .fa 
+{
+    color: #e74c3c;
+    font-size: 17px;
+    background: #e8e8e8;
+    padding: 5px;
+   
+}
+ 
+/*  End adddeparment Style */
+
+
+
+
+/* Start media query */ 
+@media(max-width:991px)
+{
+    .dashboard-tab    {
+         margin-bottom: 15px;
+
+    }
+    .dashboard-tab .fa 
+    {
+        margin-top:20px
+    }
+}
+
+/* end media query */ 
